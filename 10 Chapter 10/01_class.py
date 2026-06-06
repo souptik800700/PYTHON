@@ -1,8 +1,13 @@
 class Employee:
-    name = "Harry"
+    # name = "Harry"
     language = "py"
     salary = 1200000
 
 
 harry = Employee()
-print(harry.name, harry.language)
+harry.name = "Harry"
+print(harry.language, harry.salary)
+
+rohan = Employee()
+rohan.name = "Rohan ro ro"
+print(rohan.salary, rohan.language)
